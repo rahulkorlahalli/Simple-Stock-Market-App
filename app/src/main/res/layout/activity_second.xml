@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/companyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Company Name"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:shadowColor="#80aaed"
+        android:shadowDx="12"
+        android:shadowDy="12"
+        android:shadowRadius="8"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/symbol"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_x="0dp"
+        android:layout_y="78dp"
+        android:padding="12dp"
+        android:shadowColor="#F12525"
+        android:shadowDx="12"
+        android:shadowDy="12"
+        android:shadowRadius="8"
+        android:text="Sym"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_x="105dp"
+        android:layout_y="78dp"
+        android:padding="5dp"
+        android:text="This a a short description"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textViewLow"
+        android:layout_width="151dp"
+        android:layout_height="53dp"
+        android:layout_x="140dp"
+        android:layout_y="554dp"
+        android:padding="10dp"
+        android:text="Loading.."
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <TextView
+        android:id="@+id/stockDate"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_x="2dp"
+        android:layout_y="338dp"
+        android:padding="10dp"
+        android:text="Stock details as of "
+        android:textAlignment="center"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="117dp"
+        android:layout_height="53dp"
+        android:layout_x="10dp"
+        android:layout_y="409dp"
+        android:padding="10dp"
+        android:text="Open:"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <TextView
+        android:id="@+id/textViewOpen"
+        android:layout_width="149dp"
+        android:layout_height="53dp"
+        android:layout_x="140dp"
+        android:layout_y="409dp"
+        android:padding="10dp"
+        android:text="Loading.."
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="117dp"
+        android:layout_height="53dp"
+        android:layout_x="10dp"
+        android:layout_y="481dp"
+        android:padding="10dp"
+        android:text="High:"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <TextView
+        android:id="@+id/textViewHigh"
+        android:layout_width="151dp"
+        android:layout_height="53dp"
+        android:layout_x="140dp"
+        android:layout_y="481dp"
+        android:padding="10dp"
+        android:text="Loading.."
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="117dp"
+        android:layout_height="53dp"
+        android:layout_x="10dp"
+        android:layout_y="554dp"
+        android:padding="10dp"
+        android:text="Low:"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <TextView
+        android:id="@+id/textViewClosed"
+        android:layout_width="151dp"
+        android:layout_height="53dp"
+        android:layout_x="140dp"
+        android:layout_y="624dp"
+        android:padding="10dp"
+        android:text="Loading.."
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="117dp"
+        android:layout_height="53dp"
+        android:layout_x="10dp"
+        android:layout_y="624dp"
+        android:padding="10dp"
+        android:text="Close: "
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <Button
+        android:id="@+id/idBtnPickDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:layout_x="0dp"
+        android:layout_y="282dp"
+        android:text="Change Date"
+        android:background="@color/black"
+        android:textAllCaps="false" />
+
+</AbsoluteLayout>
