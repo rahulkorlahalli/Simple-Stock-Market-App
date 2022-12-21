@@ -18,4 +18,8 @@ Volley is an HTTP library that makes networking for Android apps easier and most
 [https://google.github.io/volley/]
 
 <br />
-<img src="Screenshot1.png" alt="Main Screen" width="200"/>  <img src="Screenshot2.png" alt="Second Screen" width="200"/>
+<p float="left">
+    <img src="Screenshot1.png" alt="Main Screen" width="200"/>  
+    <img src="Screenshot2.png" alt="Second Screen" width="200"/>
+</p>
+
