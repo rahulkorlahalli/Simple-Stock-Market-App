@@ -10,7 +10,9 @@ Making an API call to the Alpha Vantage stock API allows the application to show
 ## API Used
 Alpha Vantage provides enterprise-grade financial market data through a set of powerful and developer-friendly data APIs and spreadsheets. 
 Alpha Vantage is a one-stop-shop for real-time and historical global market data delivered through REST stock APIs, Excel and Google Sheets.
+[https://www.alphavantage.co/]
 
 ## Libraries Used
 The Volley library is used as a dependency for making network requests. 
 Volley is an HTTP library that makes networking for Android apps easier and most importantly faster.
+[https://google.github.io/volley/]
