@@ -17,4 +17,6 @@ The Volley library is used as a dependency for making network requests.
 Volley is an HTTP library that makes networking for Android apps easier and most importantly faster.
 [https://google.github.io/volley/]
 
+<br />
 <img src="Screenshot1.png" alt="Main Screen" width="200"/>
+<img src="Screenshot2.png" alt="Second Screen" width="200"/>
